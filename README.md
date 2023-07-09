@@ -1,6 +1,11 @@
 # Summarization
 Training Large Language Model for summarization task
 
+### Installation
+Install the required libraries
+    
+    pip install -r requirements.txt
+
 ### Usage
 #### Training
 
@@ -50,11 +55,11 @@ Example Usage:
     python eval.py [OPTIONS]
 
     Options:
-        --model model_name/model_path                                        Model name from Huggingface Hub or model path (local).
-        --max_length MAX_LENGTH(INT)                                         Max length parameter for Transformer model.
-        --cache_dir directory_path                                           Directory for huggingface caching.
-        --dataset dataset_name/dataset_file                                  Dataset name from Huggingface Hub or datset file (local).
-        --max_new_tokens MAX_LENGTH(INT)                                     Max number of tokens to be generated.
+        --model model_name/model_path                Model name from Huggingface Hub or model path (local).
+        --max_length MAX_LENGTH(INT)                 Max length parameter for Transformer model.
+        --cache_dir directory_path                   Directory for huggingface caching.
+        --dataset dataset_name/dataset_file          Dataset name from Huggingface Hub or datset file (local).
+        --max_new_tokens MAX_LENGTH(INT)             Max number of tokens to be generated.
         
 
 Example Usage:
